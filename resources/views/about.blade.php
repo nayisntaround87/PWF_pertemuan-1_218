@@ -12,8 +12,13 @@
                 <div class="space-y-4 text-lg">
                     <p><span class="font-semibold">Nama:</span> Nayla Salwa</p>
                     <p><span class="font-semibold">NIM:</span> 20230140218</p>
-                    <p><span class="font-semibold">Program Studi:</span> Informatika</p>
-                    <p><span class="font-semibold">Hobi:</span> Sunsetan, ngoding, nonton drakor 😌</p>
+                    <p><span class="font-semibold">Program Studi:</span> Teknologi Informasi</p>
+                    <p><span class="font-semibold">Hobi:</span> Mantai</p>
+                </div>
+
+                <div class="mt-6 flex items-center gap-2">
+                    <x-edit-button :url="route('about.edit')" />
+                    <x-delete-button url="/about/delete" />
                 </div>
 
             </div>

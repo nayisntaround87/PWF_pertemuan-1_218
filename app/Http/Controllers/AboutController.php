@@ -10,4 +10,10 @@ class AboutController extends Controller
     {
         return view('about');
     }
+
+    // 🔥 TAMBAHAN
+    public function edit()
+    {
+        return view('edit-about');
+    }
 }
